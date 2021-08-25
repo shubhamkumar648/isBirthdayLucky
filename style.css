@@ -1,0 +1,23 @@
+*{
+margin: 0;
+padding: 0;
+background-color: cornsilk;
+}
+
+.mainContainer{
+
+margin: 0 auto;
+text-align: center;
+
+}
+
+#textDisplay{
+   font-size: larger;
+    font-weight: 600;
+    color: red
+}
+
+#check-Button{
+
+   color: blue
+}
