@@ -10,13 +10,15 @@
   <body>
     <h1>Is your Birthday lucky</h1>
     <a  style = "padding-left: 10rem; font-weight: bolder;" href="https://github.com/shubhamkumar648/isBirthdayLucky">Code Link</a>
-
     <div class="mainContainer">
+      <form>
+
       <label for="date-of-birth">Date:</label>
-      <input id="date-of-birth" type="date" />
+      <input id="date-of-birth" type="date"  required/>
       <label for="lucky-No">Lucky Number:</label>
-      <input id="lucky-No" type="number" />
+      <input id="lucky-No" type="number"   required min=1 />
       <button id="check-Button">CheckNumber</button>
+      </form>
       <p>👇</p>
       <p id="textDisplay">lucky or not:</p>
     </div>

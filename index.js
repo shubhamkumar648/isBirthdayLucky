@@ -32,7 +32,9 @@ const calculateSum = (dob) => {
   return sum;
 };
 
-const checkBirthdateIslucky = () => {
+const checkBirthdateIslucky = (e) => {
+
+  e.preventDefault()
   //1.1 display value of dob using eventlistener the value is trigerd after click
   const dob = dateOfBirth.value;
   const sum = calculateSum(dob);
