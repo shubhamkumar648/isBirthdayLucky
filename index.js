@@ -8,11 +8,15 @@ const textDisplay = document.querySelector("#textDisplay");
 // 3.creating funtion and give check weather no is lucky or not
 const CompareValues = (sum, luckyNumber) => {
   console.log(sum, luckyNumber);
+ 
+    
   if (sum % luckyNumber === 0) {
     textDisplay.innerText = "wohoo your b'day is lucky😊";
   } else {
     textDisplay.innerText = "opps you are not lucky😥";
   }
+
+  
 };
 
 //2.create funtion to add sum of dob number using loop
@@ -40,8 +44,10 @@ const checkBirthdateIslucky = (e) => {
   const sum = calculateSum(dob);
 
   if (sum && dob) {
-    CompareValues(sum, luckyNumber.value);
-  } else {
+    CompareValues(sum, (luckyNumber.value));
+  } 
+  
+  else {
     textDisplay.innerText = "please enter both input value";
   }
   // console.log(sum);

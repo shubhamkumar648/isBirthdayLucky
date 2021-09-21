@@ -1,23 +1,33 @@
 *{
-margin: 0 auto;
+margin: 0 ;
 padding: 0;
-background-color: cornsilk;
+
 }
 
-.mainContainer{
 
+.mainContainer{
+    
 margin: 0 auto;
 text-align: center;
-
 }
 
 #textDisplay{
    font-size: larger;
     font-weight: 600;
-    color: red
+    color: blue
 }
 
 #check-Button{
 
    color: blue
+}
+
+#h4{
+   color:  red;
+   padding: 24px;
+}
+
+.formContainer{
+
+   padding: 15px;
 }

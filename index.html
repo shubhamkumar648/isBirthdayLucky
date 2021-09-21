@@ -8,21 +8,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Is your Birthday lucky</h1>
-    <a  style = "padding-left: 10rem; font-weight: bolder;" href="https://github.com/shubhamkumar648/isBirthdayLucky">Code Link</a>
     <div class="mainContainer">
-      <form>
 
+    <h1>Is your Birthday lucky</h1>
+
+    <h4 id="h4">Privacy notice: We are not storing your private data,so don't worry</h4>
+    <a  style= "font-weight: bolder;" href="https://github.com/shubhamkumar648/isBirthdayLucky">Code Link</a>
+      <form class ="formContainer">
       <label for="date-of-birth">Date:</label>
-      <input id="date-of-birth" type="date"  required/>
+      <input   type="date" id="date-of-birth" placeholdr ="dd-mm-yy" />
+
       <label for="lucky-No">Lucky Number:</label>
-      <input id="lucky-No" type="number"   required min=1 />
-      <button id="check-Button">CheckNumber</button>
-      </form>
+      <input type="number" id="lucky-No" placeholder="enter lucky no"  />
+
+       <button id="check-Button">CheckNumber</button> 
+      
+</form>
+      
+
       <p>👇</p>
       <p id="textDisplay">lucky or not:</p>
     </div>
 
-    <script src="index.js"></script>
+    <script src="index.js"></script> 
   </body>
 </html>
