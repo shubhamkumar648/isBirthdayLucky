@@ -12,7 +12,13 @@ const CompareValues = (sum, luckyNumber) => {
     
   if (sum % luckyNumber === 0) {
     textDisplay.innerText = "wohoo your b'day is lucky😊";
-  } else {
+  } 
+  
+  else if (luckyNumber < 0){
+    textDisplay.innerText = "please enter negative value";
+
+  }
+  else {
     textDisplay.innerText = "opps you are not lucky😥";
   }
 
@@ -43,7 +49,7 @@ const checkBirthdateIslucky = (e) => {
   const dob = dateOfBirth.value;
   const sum = calculateSum(dob);
 
-  if (sum && dob) {
+  if (sum && dob ) {
     CompareValues(sum, (luckyNumber.value));
   } 
   
