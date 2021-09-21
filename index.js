@@ -15,7 +15,7 @@ const CompareValues = (sum, luckyNumber) => {
   } 
   
   else if (luckyNumber < 0){
-    textDisplay.innerText = "please enter negative value";
+    textDisplay.innerText = "please enter positive value ";
 
   }
   else {
